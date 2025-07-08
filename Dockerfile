@@ -1,5 +1,5 @@
 # Use a imagem base do PowerShell
-FROM mcr.microsoft.com/powershell:lts-7.4-ubuntu-22.04
+FROM mcr.microsoft.com/azure-powershell:ubuntu-22.04
 
 # Atualiza o sistema e instala dependências
 RUN apt-get update && \
